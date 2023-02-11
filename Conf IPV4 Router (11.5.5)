@@ -19,4 +19,5 @@ Bad mask /26 for address 192.168.0.64
 CustomerRouter(config-if)#ip add 192.168.0.65 255.255.255.192
 CustomerRouter(config-if)#no sh
 
-https://prnt.sc/J2ZqKEWzizzG
+PC A - https://prnt.sc/J2ZqKEWzizzG
+PC B - https://prnt.sc/z1uqQydXcphK
