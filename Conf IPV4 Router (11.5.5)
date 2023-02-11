@@ -1,6 +1,6 @@
 // configure Router
 // https://contenthub.netacad.com/itn-dl/11.5.5
-
+// LAN A
 Router>enable
 Router#conf t
 
@@ -21,3 +21,12 @@ CustomerRouter(config-if)#no sh
 
 PC A - https://prnt.sc/J2ZqKEWzizzG
 PC B - https://prnt.sc/z1uqQydXcphK
+// LAN B
+
+Switch>en
+Switch#conf t
+Switch(config)#in vlan 1
+Switch(config-if)#ip add 192.168.0.66 255.255.255.192
+Switch(config-if)#no sh
+exit
+Switch(config)#ip default-gateway 192.168.0.65
