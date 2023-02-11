@@ -1,5 +1,6 @@
 // configure Router
 // https://contenthub.netacad.com/itn-dl/11.5.5
+
 Router>enable
 Router#conf t
 
