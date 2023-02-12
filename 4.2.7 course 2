@@ -41,3 +41,4 @@ S1(config)#in f0/6
 S1(config-if)#switchport access vlan 30
 S1(config-if)#ex
 S1(config)#ex
+*** switchport mode trunk ***
